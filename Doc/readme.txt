@@ -1,7 +1,5 @@
---------------------------------------------------------------------------------
 Yamaha YM2148 Emulator Board v1.0
-Copyright (c) 2017-2022 RBSC
---------------------------------------------------------------------------------
+Copyright (c) 2017 RBSC
 
 About
 -----
@@ -9,6 +7,9 @@ About
 This project's goal was to emulate Yamaha's YM2148 chip that has no official datasheet. We had to reverse engineer the chip because
 Yamaha refused to provide the PDF with the chip's description. The reverse engineering was done in order to correctly emulate the
 chip in our own SFG cartridge project.
+
+IMPORTANT! When assembling the board please make sure that you add 10 kOhm resistors from SD0-SD7 lines to +5V! See the included
+pictures for the way to mount the resistors.
 
 Only one chip was harmed during this project...
 
@@ -26,27 +27,12 @@ When the sources of the tools are used to create alternative projects, please al
 Contact information
 -------------------
 
-The members of RBSC group Tnt23, Wierzbowsky, Pyhesty, Ptero, GreyWolf, SuperMax, VWarlock and DJS3000 can be contacted via the group's e-mail
-address:
+The members of RBSC group Wierzbowsky, Ptero and DJS3000 can be contacted via the MSX.ORG or ZX-PK.RU forums. Just send a personal
+message and state your business.
 
-info@rbsc.su
-
-The group's coordinator could be reached via this e-mail address:
-
-admin@rbsc.su
-
-The group's website can be found here:
-
-https://rbsc.su/
-https://rbsc.su/ru
-
-The RBSC's hardware repository can be found here:
+The RBSC repository can be found here:
 
 https://github.com/rbsc
 
-The RBSC's 3D model repository can be found here:
-
-https://www.thingiverse.com/groups/rbsc/things
 
 -= ! MSX FOREVER ! =-
-

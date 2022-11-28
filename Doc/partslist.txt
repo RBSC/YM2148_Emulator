@@ -1,5 +1,5 @@
 Yamaha YM2148 Emulator Board v1.0
-Copyright (c) 2017-2022 RBSC
+Copyright (c) 2017 RBSC
 ---------------------------------
 
 Partlist
@@ -9,18 +9,10 @@ Assembly variant:
 Part     Value                    Device                   Package              Library             Sheet
 
 IC1      EPM7160-T100             EPM7160-T100             TQFP100              altera              1
-R1       10k                      R-EU_R0805               R0805                resistor            1
-R2       10k                      R-EU_R0805               R0805                resistor            1
-R3       10k                      R-EU_R0805               R0805                resistor            1
-R4       10k                      R-EU_R0805               R0805                resistor            1
-R5       10k                      R-EU_R0805               R0805                resistor            1
-R6       10k                      R-EU_R0805               R0805                resistor            1
-R7       10k                      R-EU_R0805               R0805                resistor            1
-R8       10k                      R-EU_R0805               R0805                resistor            1
-R9       10k                      R-EU_R0805               R0805                resistor            1
-R10      10k                      R-EU_R0805               R0805                resistor            1
-R11      10k                      R-EU_R0805               R0805                resistor            1
-R12      10k                      R-EU_R0805               R0805                resistor            1
+R1       10k                      R-EU_R0603               R0603                resistor            1
+R2       10k                      R-EU_R0603               R0603                resistor            1
+R3       10k                      R-EU_R0603               R0603                resistor            1
+R4       10k                      R-EU_R0603               R0603                resistor            1
 C1       100nF                    C050-025X075 rcl         C0805                capacitor           1
 C2       100nF                    C050-025X075 rcl         C0805                capacitor           1
 C3       100nF                    C050-025X075 rcl         C0805                capacitor           1
